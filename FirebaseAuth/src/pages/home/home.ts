@@ -17,15 +17,20 @@ export class HomePage {
       if (data && data.email && data.uid) {
         this.toast.create({
           message: `Bienvenido a APP_NAME, ${data.email}`,
-          duration: 3000
+          duration: 3000,
+          position: 'top'
       }).present();
     }
   else {
   this.toast.create({
-    message: `No se pudo iniciar sesión`,
-    duration: 3000
+    message: `Error al iniciar sesión`,
+    duration: 3000,
+    position: 'top'
   }).present();
-  }
-})
 }
+console.log(data)
+
+});
+}
+
 }
