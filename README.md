@@ -1,2 +1,2 @@
-# Aplicacion Ionic con ejemplo de una Autenticacion de contrase胊 con Firebase.
-- Los usuarios se autentican en Firebase con la direccion de correo electronico y contrasenia.
+# Aplicaci贸n Ionic, Autenticaci贸n de contrase帽a con Firebase.
+- Los usuarios se autentican en Firebase con la direcci贸n de correo electr贸nico y contrase帽a.
